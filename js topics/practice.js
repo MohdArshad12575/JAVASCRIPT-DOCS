@@ -1,3 +1,51 @@
+// BASIC PRACTICE QUESTIONS OF JS
+
+// Q1: SUM OF TWO NUMBERS
+// let num1 = 5
+// let num2 = 10 
+// let sum = num1 + num2
+// console.log(sum)
+
+// // Q1: ACCEPT AND PRINT THE ANSWER
+// let userName = prompt("Enter your name:")
+// console.log('hello ' + userName)
+
+
+// SWAP TWO VARIABLES VIA 3 METHODS
+
+// let a = 10; 
+// let b = 20 ;
+// need  b = 10 and a = 20
+
+// METHOD 1: USING TEMP VARIABLE
+// let temp = a;
+// a  = b ;
+// b  = temp ;
+// console.log('a = ' + a + ' b = ' + b)
+
+// METHOD 2: USING ARITHMETIC OPERATIONS
+// a = a + b ;
+// b = a - b ;
+// a = a - b ;
+// console.log('a = ' + a + ' b = ' + b)
+
+// METHOD 3: USING DESTRUCTURING ASSIGNMENT
+
+// [a, b] = [ b,a]
+// console.log('a = ' + a + ' b = ' + b)
+
+
+// PRE AND POST INCREMENT AND DECREMENT TRICK
+
+let a = 22, b = 11; 
+let c =  a + b + a++ + b++ + ++a + ++b; // 22 . 11 , 22 , 11 , 24 , 13
+console.log(a);
+console.log(b);
+console.log(c)
+
+
+
+
 // CLOSURE IN JS A FUNCTION DEFINED INSIDE A ANOTHER FUNC, THE INNER FUNC HAS ACCESS TO THE VARIABLE S AND SCOPE OF THE OUTER FUNC
 // ALLOW FOR PRIVATE VARIABLES AND STATE MAINTAINANCE USED FREQUENTLY IN JS FRAMEWORK
 
