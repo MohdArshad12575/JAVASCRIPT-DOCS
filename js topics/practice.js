@@ -37,15 +37,37 @@
 
 // PRE AND POST INCREMENT AND DECREMENT TRICK
 
-let a = 22, b = 11; 
-let c =  a + b + a++ + b++ + ++a + ++b; // 22 . 11 , 22 , 11 , 24 , 13
-console.log(a);
-console.log(b);
-console.log(c)
+// let a = 22, b = 11; 
+// let c =  a + b + a++ + b++ + ++a + ++b; // 22 . 11 , 22 , 11 , 24 , 13
+// console.log(a);
+// console.log(b);
+// console.log(c)
 
 
+// CONDITIONAL STATEMENT IN JS 
 
+// VALID VOTER BY AGE 
 
+// let age = 17
+// if(age>= 18){
+//     console.log("you are eligible to vote")
+// } else {
+//     console.log("you are not eligible to vote")
+// }
+
+// DISCOUNT ON SHOPPING BASED ON PRICE
+
+let totalPrice = 1500;
+
+if (totalPrice >= 9000) {
+    console.log("You are eligible for a 20% discount");
+} else if (totalPrice >= 7000) {
+    console.log("You are eligible for a 10% discount");
+} else if (totalPrice >= 5000) {
+    console.log("You are eligible for a 5% discount");
+} else {
+    console.log("You are not eligible for a discount");
+}
 // CLOSURE IN JS A FUNCTION DEFINED INSIDE A ANOTHER FUNC, THE INNER FUNC HAS ACCESS TO THE VARIABLE S AND SCOPE OF THE OUTER FUNC
 // ALLOW FOR PRIVATE VARIABLES AND STATE MAINTAINANCE USED FREQUENTLY IN JS FRAMEWORK
 
